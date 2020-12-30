@@ -1,0 +1,57 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    margin: 100px 50px 50px 50px;
+}
+
+#gameArea {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.cell {
+    margin: 1px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.25rem;
+    border: 1px solid black;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background .1s;
+}
+
+.cell:hover {
+    background-color: blanchedalmond;
+}
+
+.currentPlayer {
+    width: 200px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.stat {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+}
+
+.stat table {
+    border-collapse: collapse;
+}
+
+.stat table, .stat th, .stat td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
